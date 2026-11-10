@@ -267,7 +267,3 @@ shiny::runApp("C:/Users/me/Downloads/murders_Rshiny_app")
 #   [ ] Are there no files in the folder that must not be uploaded (personal data, etc.)? -> the whole folder goes to the server
 # ============================================================
 
-
-# Posit Cloud Connect
-install.packages("rsconnect")
-rsconnect::writeManifest()
