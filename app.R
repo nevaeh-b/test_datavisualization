@@ -28,7 +28,10 @@
 # Load packages
 # (Do not put install.packages() in app.R -> a common cause of deployment errors)
 # ------------------------------------------------------------
-
+library(shiny)
+library(bslib)
+library(dplyr)
+library(ggplot2)
 
 # ------------------------------------------------------------
 # Load the data: always with a 'relative path'
