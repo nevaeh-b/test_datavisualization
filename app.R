@@ -1,4 +1,3 @@
-library(rsconnect)
 
 rsconnect::writeManifest()
 
@@ -32,12 +31,6 @@ rsconnect::writeManifest()
 # Load packages
 # (Do not put install.packages() in app.R -> a common cause of deployment errors)
 # ------------------------------------------------------------
-
-# install.packages("shiny")
-library(shiny)
-library(bslib)
-library(dplyr)
-library(ggplot2)
 
 
 # ------------------------------------------------------------
