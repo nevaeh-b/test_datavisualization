@@ -1,4 +1,6 @@
-renv::init()
+library(rsconnect)
+
+rsconnect::writeManifest()
 
 
 # ============================================================
